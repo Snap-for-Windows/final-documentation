@@ -1,53 +1,63 @@
-﻿<html lang="en">
+﻿<html>
 
 <head>
-	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Snap for Windows</title>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="scripts/main.js"></script>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>Snap for Windows (SnapW)</title>
+	<link href="styles/normalize.css" rel="stylesheet" />
+	<link href="styles/skeleton.css" rel="stylesheet" />
 	<link href="styles/main.css" rel="stylesheet" />
 </head>
 
 <body>
-	<div class="row">
-		<img src="snapbanner.jpg">
-	</div>
-	<div class="well">
-		<h3>About the SnapW Group</h3>
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="twelve columns">
+				<img src="images/header.jpg" class="u-max-full-width">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="twelve columns">
+				<h3>About the Snap for Windows (SnapW) Group</h3>
 				We are a group of students at Brigham Young University working with Intel on an open sourced telemetry project called snap. Snap is an open source project started in July of 2015 with the intent of creating a single API for collecting telemetry data in Unix-based systems. Currently, Snap does not function on Windows systems and the initial portion of this capstone project revolves around the Windows porting process. Our plans are to port Snap to Windows and create an easy install process. We then will make a small collection of Windows-specific plugins: Perfmon, Sysinternals, and Active Directory.
 			</div>
 		</div>
-	</div>
-	<h3>Snap Flow Chart</h3>
-	<img src="snapflow.png" style="width:1000px; height:auto;" alt="Snap Flow Chart Picture">
-	<br />
-	<br />
-	<div class="well">
+
 		<div class="row">
-			<div class="col-md-5" style="font-size:200%">Documentation of Project</div>
+			<div class="twelve columns">
+				<h3>Project Documentation</h3>
+
+				<h5>Documents</h5>
+				<ul>
+					<li><a href="files/final-document.pdf">Final Document</a></li>
+					<li><a href="files/Snap_VideoDraft.wmv">Team Video</a></li>
+					<li><a href="files/Final_Presentation_Slides.pptx">Presentation Slides</a></li>
+				</ul>
+
+				<h5>Source Code</h5>
+				<ul>
+					<li><a href="https://github.com/Snap-for-Windows">Source Code</a></li>
+				</ul>
+
+				<h5>Video</h5>
+				<ul>
+					<li><a href="files/FinalDocument.docx">Final Document</a></li>
+				</ul>
+			</div>
 		</div>
-		<br />
+
 		<div class="row">
-			<div class="col-md-4" style="font-size:150%"><a href="FinalDocument.docx">Final Document</a></div>
+			<div class="twelve columns">
+				<h3>Snap Flow Chart</h3>
+				<img src="images/flow.png" class="u-max-full-width">
+			</div>
 		</div>
+
 		<div class="row">
-			<div class="col-md-4" style="font-size:150%"><a href="Snap_VideoDraft.wmv">Team Video</a></div>
+			<div class="twelve columns">
+				<center>&copy; 2016 Brigham Young University and Snap for Windows (SnapW)</center>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-4" style="font-size:150%"><a href="https://github.com/Snap-for-Windows">Source Code</a></div>
-		</div>
-		<div class="row">
-			<div class="col-md-4" style="font-size:150%"><a href="Final_Presentation_Slides.pptx">Presentation Slides</a></div>
-		</div>
-	</div>
-	<div id="footer">
-		2016 SnapW
 	</div>
 
 </body>
